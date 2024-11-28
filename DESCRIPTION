@@ -1,0 +1,26 @@
+Package: HKU2024
+Title: Unlocking single cell spatial omics analyses with SCDNEY
+Version: 0.1.0
+Authors@R: 
+  person(given = "Sydney Data Science Centre",
+         role = c("aut", "cre"),
+         email = "data-science.admin@sydney.edu.au")
+Description: Unlocking single cell spatial omics analyses with SCDNEY
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.1
+Depends: 
+  Biobase,
+  R (>= 4.1)
+Imports: 
+  Seurat,
+  scFeatures,
+  ggplot2,
+  ggthemes,
+  ClassifyR
+Suggests: 
+  knitr,
+  rmarkdown,
+  pkgdown
