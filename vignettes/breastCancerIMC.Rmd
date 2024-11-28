@@ -48,7 +48,7 @@ library(SingleCellExperiment)
 library(ggplot2)
 library(scFeatures) ## devtools::install_github("SydneyBioX/scFeatures")
 library(ClassifyR) ## BiocManager::install("ClassifyR", dependencies = TRUE)
-library(lisaClust)
+library(lisaClust) # BiocManager::install("lisaClust")
 library(ggthemes)
 library(spicyR) ## BiocManager::install("spicyR")
 library(dplyr)
@@ -888,7 +888,7 @@ a <-ggplot( one_sample, aes(x = Location_Center_X , y = Location_Center_Y, colou
  
 
 one_sample$celltype <- one_sample$description
-index <-  one_sample$celltype  %in% c("melano", "Tc.ae")
+index <-  one_sample$celltype  %in% c("Fibroblasts", "HR- CK7-")
 one_sample$celltype[!index] <- "others"
 b <- ggplot( one_sample, aes(x = Location_Center_X , y = Location_Center_Y, colour = celltype )) + geom_point()  + scale_colour_manual(values = color_codes)  + ggtitle( "Patient MB-0128 - low L value with \n B cells interacting HR_ CK7")
  
