@@ -37,6 +37,7 @@ for (thispackage in c("SingleCellExperiment" ,"lisaClust"  , "spicyR" ,
 
 devtools::install_github("SydneyBioX/scFeatures")
 
+devtools::install_github("SydneyBioX/scClassify")
 
 devtools::install_github("DarioS/ClassifyR")
 
