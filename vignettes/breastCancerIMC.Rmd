@@ -1,8 +1,8 @@
 ---
 title: "Unlocking single cell spatial omics analyses with scdney"
 author: Yue Cao,
-        Andy Tran,
         Daniel Kim,
+        Andy Tran,
         Dario Strbenac,
         Nicholas Robertson,
         Helen Fu,
@@ -12,7 +12,7 @@ affiliation:
   - School of Mathematics and Statistics, University of Sydney, Australia;
   - Faculty of Medicine and Health, University of Sydney, Australia;     
   - Charles Perkins Centre, University of Sydney, Australia;   
-date: 24 July, 2024
+date: 29 November, 2024
 params:
   evalc: TRUE   ## EDIT to TRUE when generating output, otherwise 'FALSE'
   show: 'hide'  ## EDIT to 'as.is' when generating Suggestions, otherwise 'hide'

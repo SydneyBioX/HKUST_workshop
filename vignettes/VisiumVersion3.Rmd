@@ -1,6 +1,7 @@
 ---
 title: "Unlocking single cell spatial omics analyses with scdney - Visium"
 author: Yue Cao,
+        Daniel Kim,
         Andy Tran,
         Dario Strbenac,
         Nicholas Robertson
@@ -10,7 +11,7 @@ affiliation:
   - School of Mathematics and Statistics, University of Sydney, Australia;     
   - Charles Perkins Centre, University of Sydney, Australia;   
   - Laboratory of Data Discovery for Health Limited (D24H), Science Park, Hong Kong SAR, China.  
-date: 15 October, 2023
+date: 29 November, 2024
 
 params:
   evalc: TRUE   ## EDIT to TRUE when generating output, otherwise 'FALSE'
